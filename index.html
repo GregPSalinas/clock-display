@@ -3,13 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
     <title>ticktock</title>
+    <link rel="shortcut icon" href="imgs/clock.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div id="clockDisplay" class="container text-center mt-5">
-      <h3 class="clock"><span id="dateDisplay"></span></h3>
-      <h3 class="clock"><span id="timeDisplay"></span></h3>
+    <div id="clockDisplay">
+      <h1 class="clock"><span id="dateDisplay"></span></h1>
+      <h1 class="clock"><span id="timeDisplay"></span></h1>
+    </div>
+    <div class="container">
+        <button id="btn">
+            Change background color
+        </button>
     </div>
     <script src="index.js"></script>
   </body>
